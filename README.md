@@ -65,7 +65,9 @@ The following parameters must be passed to the `variable.tf` file:
 | <a name="input_policy_name"></a> [policy\_name](#input\_policy\_name) | Policy Name | `string` | n/a | yes |
 | <a name="input_region"></a> [region](#input\_region) | AWS region | `string` | n/a | yes |
 
-## Usage Terraform
+## Usage
+
+Edit the `variables.tf` with your own AWS configuration and `userdata.sh` file with your bucket name.
 
 To use Terraform with AWS, you can follow these steps:
 
